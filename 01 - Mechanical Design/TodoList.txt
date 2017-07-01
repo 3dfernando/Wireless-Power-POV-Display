@@ -1,0 +1,6 @@
+Include Hall effect sensor and magnet support in model
+Model correctly the quick clamps
+Include birthday etching
+Design prototype board (+ purchase items)
+Include switch in the wooden box
+Include air vents in the wooden box
