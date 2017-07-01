@@ -54,7 +54,7 @@ void main() {
 
     
     while (1) {
-     /*
+
      //control loop
       if (!(Last_Pixel_Column_Count==Desired_Pixel_Column_Count)) {
           //Needs to update the timer
@@ -71,9 +71,6 @@ void main() {
           }
       }
       delay_ms(300);
-      */
-      
-      
    }
 }
 

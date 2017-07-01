@@ -55,7 +55,23 @@ void main() {
 
 
  while (1) {
-#line 77 "F:/00 - Files/00 - Personal/40 - Hobbies/90 - Projetos Particulares/40 - POV Display/03 - Programming/POV_Wireless_Display.c"
+
+
+ if (!(Last_Pixel_Column_Count==Desired_Pixel_Column_Count)) {
+
+ diff = Desired_Pixel_Column_Count-Last_Pixel_Column_Count;
+ timeNow=255-Pixel_Column_Time;
+ newTimeDelta = (double) timeNow * ((double) diff/ (double) Desired_Pixel_Column_Count);
+ newTimeDelta = newTimeDelta * Kp;
+
+ if (abs(newTimeDelta)>1) {
+ Pixel_Column_Time += newTimeDelta;
+ if (Pixel_Column_Time > 250) {
+ Pixel_Column_Time=250 ;
+ }
+ }
+ }
+ delay_ms(300);
  }
 }
 
@@ -71,7 +87,7 @@ void interrupt(){
  PORTB=WORLDB[Pixel_Column_Count];
  PORTC=WORLDC[Pixel_Column_Count];
  PORTD=WORLDD[Pixel_Column_Count];
-#line 97 "F:/00 - Files/00 - Personal/40 - Hobbies/90 - Projetos Particulares/40 - POV Display/03 - Programming/POV_Wireless_Display.c"
+#line 94 "F:/00 - Files/00 - Personal/40 - Hobbies/90 - Projetos Particulares/40 - POV Display/03 - Programming/POV_Wireless_Display.c"
  }
 
  Prev_IR_State=PORTE.RE0;
