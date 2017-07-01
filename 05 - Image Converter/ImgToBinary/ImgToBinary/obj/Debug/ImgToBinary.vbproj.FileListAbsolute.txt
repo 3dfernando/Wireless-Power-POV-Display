@@ -1,0 +1,11 @@
+F:\00 - Files\00 - Personal\40 - Hobbies\90 - Projetos Particulares\40 - POV Display\05 - Image Converter\ImgToBinary\ImgToBinary\bin\Debug\ImgToBinary.exe.config
+F:\00 - Files\00 - Personal\40 - Hobbies\90 - Projetos Particulares\40 - POV Display\05 - Image Converter\ImgToBinary\ImgToBinary\bin\Debug\ImgToBinary.exe
+F:\00 - Files\00 - Personal\40 - Hobbies\90 - Projetos Particulares\40 - POV Display\05 - Image Converter\ImgToBinary\ImgToBinary\bin\Debug\ImgToBinary.pdb
+F:\00 - Files\00 - Personal\40 - Hobbies\90 - Projetos Particulares\40 - POV Display\05 - Image Converter\ImgToBinary\ImgToBinary\bin\Debug\ImgToBinary.xml
+F:\00 - Files\00 - Personal\40 - Hobbies\90 - Projetos Particulares\40 - POV Display\05 - Image Converter\ImgToBinary\ImgToBinary\obj\Debug\ImgToBinary.vbprojResolveAssemblyReference.cache
+F:\00 - Files\00 - Personal\40 - Hobbies\90 - Projetos Particulares\40 - POV Display\05 - Image Converter\ImgToBinary\ImgToBinary\obj\Debug\ImgToBinary.Resources.resources
+F:\00 - Files\00 - Personal\40 - Hobbies\90 - Projetos Particulares\40 - POV Display\05 - Image Converter\ImgToBinary\ImgToBinary\obj\Debug\ImgToBinary.vbproj.GenerateResource.Cache
+F:\00 - Files\00 - Personal\40 - Hobbies\90 - Projetos Particulares\40 - POV Display\05 - Image Converter\ImgToBinary\ImgToBinary\obj\Debug\ImgToBinary.exe
+F:\00 - Files\00 - Personal\40 - Hobbies\90 - Projetos Particulares\40 - POV Display\05 - Image Converter\ImgToBinary\ImgToBinary\obj\Debug\ImgToBinary.xml
+F:\00 - Files\00 - Personal\40 - Hobbies\90 - Projetos Particulares\40 - POV Display\05 - Image Converter\ImgToBinary\ImgToBinary\obj\Debug\ImgToBinary.pdb
+F:\00 - Files\00 - Personal\40 - Hobbies\90 - Projetos Particulares\40 - POV Display\05 - Image Converter\ImgToBinary\ImgToBinary\obj\Debug\ImgToBinary.frmGenImages.resources
