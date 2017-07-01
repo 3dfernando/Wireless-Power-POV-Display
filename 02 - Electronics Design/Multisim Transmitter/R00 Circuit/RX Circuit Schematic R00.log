@@ -1,0 +1,6 @@
+# Writing all output to: G:\00 - Files\00 - Personal\40 - Hobbies\90 - Projetos Particulares\40 - POV Display\02 - Electronics Design\RX Circuit Schematic R00.log
+set pad_wire_necking on
+bus diagonal
+fanout 5
+route 50
+Process stopped!
