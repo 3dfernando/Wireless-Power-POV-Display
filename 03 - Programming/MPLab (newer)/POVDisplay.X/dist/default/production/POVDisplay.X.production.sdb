@@ -1,0 +1,235 @@
+[p LITE_MODE AUTOSTATIC PIC14 PICREGULAR PICMID ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F877A ]
+[d frameptr 6 ]
+"4 C:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\abs.c
+[v _abs abs `(i  1 e 2 0 ]
+"32 C:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\awtoft.c
+[v ___awtoft __awtoft `(f  1 e 3 0 ]
+"62 C:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\float.c
+[v ___ftpack __ftpack `(f  1 e 3 0 ]
+"86 C:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 3 0 ]
+"56 C:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 3 0 ]
+"62 C:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 3 0 ]
+"44 C:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\fttol.c
+[v ___fttol __fttol `(l  1 e 4 0 ]
+"27 C:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\lbtoft.c
+[v ___lbtoft __lbtoft `(f  1 e 3 0 ]
+"6 C:\Program Files (x86)\Microchip\xc8\v1.42\sources\pic\eeprom.c
+[v _eecpymem eecpymem `(v  1 e 1 0 ]
+"39
+[v _memcpyee memcpyee `(v  1 e 1 0 ]
+"62 F:\00 - Files\00 - Personal\40 - Hobbies\90 - Projetos Particulares\40 - POV Display\03 - Programming\MPLab\POVDisplay.X\Main.c
+[v _main main `(v  1 e 1 0 ]
+"118
+[v _LEDColumn LEDColumn `II(v  1 e 1 0 ]
+"57 C:\Program Files (x86)\Microchip\xc8\v1.42\include\pic16f877a.h
+[v _TMR0 TMR0 `VEuc  1 e 1 @1 ]
+"164
+[v _PORTA PORTA `VEuc  1 e 1 @5 ]
+"214
+[v _PORTB PORTB `VEuc  1 e 1 @6 ]
+"276
+[v _PORTC PORTC `VEuc  1 e 1 @7 ]
+"338
+[v _PORTD PORTD `VEuc  1 e 1 @8 ]
+[s S43 . 1 `uc 1 RE0 1 0 :1:0 
+`uc 1 RE1 1 0 :1:1 
+`uc 1 RE2 1 0 :1:2 
+]
+"412
+[u S47 . 1 `S43 1 . 1 0 ]
+[v _PORTEbits PORTEbits `VES47  1 e 1 @9 ]
+"452
+[v _INTCON INTCON `VEuc  1 e 1 @11 ]
+[s S54 . 1 `uc 1 RBIF 1 0 :1:0 
+`uc 1 INTF 1 0 :1:1 
+`uc 1 TMR0IF 1 0 :1:2 
+`uc 1 RBIE 1 0 :1:3 
+`uc 1 INTE 1 0 :1:4 
+`uc 1 TMR0IE 1 0 :1:5 
+`uc 1 PEIE 1 0 :1:6 
+`uc 1 GIE 1 0 :1:7 
+]
+"475
+[s S63 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 T0IF 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 T0IE 1 0 :1:5 
+]
+[u S68 . 1 `S54 1 . 1 0 `S63 1 . 1 0 ]
+[v _INTCONbits INTCONbits `VES68  1 e 1 @11 ]
+"1157
+[v _ADCON0 ADCON0 `VEuc  1 e 1 @31 ]
+"1253
+[v _OPTION_REG OPTION_REG `VEuc  1 e 1 @129 ]
+"1323
+[v _TRISA TRISA `VEuc  1 e 1 @133 ]
+"1373
+[v _TRISB TRISB `VEuc  1 e 1 @134 ]
+"1435
+[v _TRISC TRISC `VEuc  1 e 1 @135 ]
+"1497
+[v _TRISD TRISD `VEuc  1 e 1 @136 ]
+"1559
+[v _TRISE TRISE `VEuc  1 e 1 @137 ]
+"2227
+[v _ADCON1 ADCON1 `VEuc  1 e 1 @159 ]
+"10 F:\00 - Files\00 - Personal\40 - Hobbies\90 - Projetos Particulares\40 - POV Display\03 - Programming\MPLab\POVDisplay.X\Main.c
+[v _ImgToShow ImgToShow `uc  1 e 1 0 ]
+"11
+[v _ImageTimer ImageTimer `i  1 e 2 0 ]
+"12
+[v _ImageTimerOverflow ImageTimerOverflow `i  1 e 2 0 ]
+"13
+[v _MaxImages MaxImages `DCCuc  1 e 1 0 ]
+"15
+[v _WORLDD WORLDD `DCC[150]uc  1 e 150 0 ]
+"16
+[v _WORLDC WORLDC `DCC[150]uc  1 e 150 0 ]
+"17
+[v _WORLDB WORLDB `DCC[150]uc  1 e 150 0 ]
+"18
+[v _WORLDA WORLDA `DCC[150]uc  1 e 150 0 ]
+"21
+[v _ARROWD ARROWD `DCC[150]uc  1 e 150 0 ]
+"22
+[v _ARROWC ARROWC `DCC[150]uc  1 e 150 0 ]
+"23
+[v _ARROWB ARROWB `DCC[150]uc  1 e 150 0 ]
+"24
+[v _ARROWA ARROWA `DCC[150]uc  1 e 150 0 ]
+"27
+[v _SMILED SMILED `DCC[150]uc  1 e 150 0 ]
+"28
+[v _SMILEC SMILEC `DCC[150]uc  1 e 150 0 ]
+"29
+[v _SMILEB SMILEB `DCC[150]uc  1 e 150 0 ]
+"30
+[v _SMILEA SMILEA `DCC[150]uc  1 e 150 0 ]
+"33
+[v _CUBED CUBED `DCC[150]uc  1 e 150 0 ]
+"34
+[v _CUBEC CUBEC `DCC[150]uc  1 e 150 0 ]
+"35
+[v _CUBEB CUBEB `DCC[150]uc  1 e 150 0 ]
+"36
+[v _CUBEA CUBEA `DCC[150]uc  1 e 150 0 ]
+"39
+[v _BYEBYED BYEBYED `DCC[150]uc  1 e 150 0 ]
+"40
+[v _BYEBYEC BYEBYEC `DCC[150]uc  1 e 150 0 ]
+"41
+[v _BYEBYEB BYEBYEB `DCC[150]uc  1 e 150 0 ]
+"42
+[v _BYEBYEA BYEBYEA `DCC[150]uc  1 e 150 0 ]
+"46
+[v _Prev_IR_State Prev_IR_State `uc  1 e 1 0 ]
+"47
+[v _Pixel_Column_Time Pixel_Column_Time `uc  1 e 1 0 ]
+"48
+[v _Pixel_Column_Count Pixel_Column_Count `uc  1 e 1 0 ]
+"51
+[v _Desired_Pixel_Column_Count Desired_Pixel_Column_Count `DCCuc  1 e 1 0 ]
+"52
+[v _Last_Pixel_Column_Count Last_Pixel_Column_Count `uc  1 e 1 0 ]
+"53
+[v _delta delta `uc  1 e 1 0 ]
+"54
+[v _ArrayIndex ArrayIndex `uc  1 e 1 0 ]
+"56
+[v _diff diff `i  1 e 2 0 ]
+"57
+[v _newTimeDelta newTimeDelta `f  1 e 3 0 ]
+"58
+[v _Kp Kp `f  1 e 3 0 ]
+"59
+[v _timeNow timeNow `i  1 e 2 0 ]
+"62
+[v _main main `(v  1 e 1 0 ]
+{
+"99
+[v main@i i `i  1 a 2 49 ]
+"115
+} 0
+"4 C:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\abs.c
+[v _abs abs `(i  1 e 2 0 ]
+{
+[v abs@a a `i  1 p 2 14 ]
+"9
+} 0
+"27 C:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\lbtoft.c
+[v ___lbtoft __lbtoft `(f  1 e 3 0 ]
+{
+[v ___lbtoft@c c `uc  1 a 1 wreg ]
+[v ___lbtoft@c c `uc  1 a 1 wreg ]
+"29
+[v ___lbtoft@c c `uc  1 a 1 5 ]
+"30
+} 0
+"44 C:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\fttol.c
+[v ___fttol __fttol `(l  1 e 4 0 ]
+{
+"47
+[v ___fttol@lval lval `ul  1 a 4 9 ]
+"46
+[v ___fttol@exp1 exp1 `uc  1 a 1 13 ]
+[v ___fttol@sign1 sign1 `uc  1 a 1 8 ]
+"44
+[v ___fttol@f1 f1 `f  1 p 3 0 ]
+"73
+} 0
+"62 C:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 3 0 ]
+{
+"65
+[v ___ftmul@f3_as_product f3_as_product `um  1 a 3 42 ]
+"64
+[v ___ftmul@sign sign `uc  1 a 1 46 ]
+[v ___ftmul@cntr cntr `uc  1 a 1 45 ]
+[v ___ftmul@exp exp `uc  1 a 1 41 ]
+"62
+[v ___ftmul@f1 f1 `f  1 p 3 31 ]
+[v ___ftmul@f2 f2 `f  1 p 3 34 ]
+"157
+} 0
+"56 C:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 3 0 ]
+{
+"60
+[v ___ftdiv@f3 f3 `f  1 a 3 26 ]
+"59
+[v ___ftdiv@sign sign `uc  1 a 1 30 ]
+[v ___ftdiv@exp exp `uc  1 a 1 29 ]
+[v ___ftdiv@cntr cntr `uc  1 a 1 25 ]
+"56
+[v ___ftdiv@f2 f2 `f  1 p 3 15 ]
+[v ___ftdiv@f1 f1 `f  1 p 3 18 ]
+"86
+} 0
+"32 C:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\awtoft.c
+[v ___awtoft __awtoft `(f  1 e 3 0 ]
+{
+"34
+[v ___awtoft@sign sign `uc  1 a 1 5 ]
+"32
+[v ___awtoft@c c `i  1 p 2 8 ]
+"42
+} 0
+"62 C:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\float.c
+[v ___ftpack __ftpack `(f  1 e 3 0 ]
+{
+[v ___ftpack@arg arg `um  1 p 3 0 ]
+[v ___ftpack@exp exp `uc  1 p 1 3 ]
+[v ___ftpack@sign sign `uc  1 p 1 4 ]
+"86
+} 0
+"118 F:\00 - Files\00 - Personal\40 - Hobbies\90 - Projetos Particulares\40 - POV Display\03 - Programming\MPLab\POVDisplay.X\Main.c
+[v _LEDColumn LEDColumn `II(v  1 e 1 0 ]
+{
+"167
+} 0

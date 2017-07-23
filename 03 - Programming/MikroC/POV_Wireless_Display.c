@@ -50,9 +50,6 @@ void main() {
     PORTC=0b00000000;
     PORTD=0b00000000;
     
-    
-
-    
     while (1) {
 
      //control loop
